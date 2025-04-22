@@ -1,0 +1,21 @@
+# IDE settings
+.vscode/
+
+# Environment variables
+.env
+
+# Data, model outputs, and results
+data/
+models/
+output/
+
+# Python cache folders in all directories
+**/__pycache__/
+
+# Stub files
+stubs/
+
+# Ignore everything in training except training file
+src/training/*
+!src/training/training_yolo.ipynb
+!src/training/__init__.py
